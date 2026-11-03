@@ -1,20 +1,21 @@
-# Status de validacao — 03/11/2026
+﻿# Status de validação — 03/11/2026
 
-## Verificacoes executadas
+## Verificações executadas
 
-| Verificacao | Resultado | Observacao |
+| Verificação | Resultado | Observação |
 |---|---|---|
 | `npm audit` | APROVADO | 0 vulnerabilidades reportadas (0 info, low, moderate, high ou critical). |
 | `npm test` | APROVADO | 7 testes aprovados, 0 falhas. |
-| `npm run build` | APROVADO COM AVISO | Build concluido com Vite 6.4.5. Bundle JavaScript minificado de 573,40 kB, acima do limite de aviso de 500 kB. |
-| Validacao estrutural do Postman JSON | APROVADO | JSON valido e quatro requisicoes presentes. Isso nao substitui a execucao manual no Postman. |
+| `npm run build` | APROVADO COM AVISO | Build concluído com Vite 6.4.5. Bundle JavaScript minificado de 573,40 kB, acima do limite de aviso de 500 kB. |
+| Validação estrutural do Postman JSON | APROVADO | JSON válido e quatro requisições presentes. |
+| Testes da Collection no Postman | APROVADO | Execução em 03/11/2026: 1 iteração, 9 testes aprovados, 0 reprovados e 0 erros. Detalhes em `docs/API_TESTS.md`. |
 
-## Validacoes manuais pendentes
+## Validações manuais pendentes
 
 1. Executar `npm run dev` e validar a interface no navegador.
-2. Executar manualmente no Postman as requisicoes descritas em `docs/API_TESTS.md` e registrar status e corpos reais.
-3. Testar os oito periodos, mudanca/inversao de moedas, filtros individuais e combinados, ordenacao e download CSV.
-4. Testar desktop e celular e guardar capturas de evidencia.
-5. Criar o prototipo no Figma e atualizar `docs/FIGMA.md` com link e evidencias reais.
+2. Testar os oito períodos, mudança/inversão de moedas, filtros individuais e combinados, ordenação e download CSV.
+3. Testar desktop e celular e guardar capturas de evidência.
+4. Criar o protótipo no Figma e atualizar `docs/FIGMA.md` com link e evidências reais.
+5. Validar no Postman o cenário adicional de par sem observações no período, se necessário; esse cenário não fez parte da Collection executada.
 
-**A validacao automatizada e o build foram executados; a validacao manual de API/interface e o prototipo Figma seguem pendentes. Nao apresentar a versao como totalmente validada enquanto esses passos estiverem pendentes.**
+**Os testes automatizados, o build e a execução informada da Collection Postman foram concluídos. A validação manual da interface e o protótipo Figma seguem pendentes.**
