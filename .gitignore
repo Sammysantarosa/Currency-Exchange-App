@@ -6,3 +6,6 @@ dist/
 .DS_Store
 *.log
 .vscode/
+# Metadados internos da integração Native Git do Postman
+postman/.postman/
+postman/postman/
