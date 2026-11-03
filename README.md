@@ -7,7 +7,7 @@ Aplicacao SPA para conversao e analise historica de moedas, desenvolvida com Rea
 - `npm audit`: 0 vulnerabilidades reportadas.
 - `npm test`: 7 testes aprovados, 0 falhas.
 - `npm run build`: concluido com Vite 6.4.5. O build emitiu aviso porque o bundle JavaScript minificado excede 500 kB (573,40 kB).
-- Testes manuais no navegador e no Postman continuam pendentes. Consulte `docs/VALIDATION_STATUS.md`, `docs/API_TESTS.md` e `docs/FIGMA.md`.
+- Os testes de interação no navegador continuam pendentes. A Collection do Postman foi executada com sucesso e a validação visual do Figma foi concluída. Consulte `docs/VALIDATION_STATUS.md`, `docs/API_TESTS.md` e `docs/FIGMA.md`.
 
 ## Funcionalidades
 
@@ -18,6 +18,10 @@ Aplicacao SPA para conversao e analise historica de moedas, desenvolvida com Rea
 - Filtros por datas e faixa de cotacao.
 - Ordenacao e exportacao CSV dos registros filtrados.
 - Estados de carregamento, erro e ausencia de dados.
+
+## Design e Protótipo
+
+O protótipo visual e os wireframes do Currency Exchange App estão no [Figma](https://www.figma.com/design/Zkcah3938CPoXImftwMC5L). Consulte `docs/FIGMA.md` para a organização das páginas, frames, estados e Design Guide.
 
 ## Tecnologias
 
@@ -62,7 +66,7 @@ npm run preview
 
 ## Postman
 
-A Collection esta em `postman/Currency-Exchange-App.postman_collection.json`. Os testes reais das requisicoes seguem pendentes; consulte `docs/API_TESTS.md`.
+A Collection esta em `postman/Currency-Exchange-App.postman_collection.json`. A execucao foi concluida com 9 testes aprovados; consulte `docs/API_TESTS.md` para os resultados.
 
 ## Observacoes de implementacao
 
