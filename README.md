@@ -7,7 +7,7 @@ Aplicacao SPA para conversao e analise historica de moedas, desenvolvida com Rea
 - `npm audit`: 0 vulnerabilidades reportadas.
 - `npm test`: 7 testes aprovados, 0 falhas.
 - `npm run build`: concluido com Vite 6.4.5. O build emitiu aviso porque o bundle JavaScript minificado excede 500 kB (573,40 kB).
-- Os testes de interação no navegador continuam pendentes. A Collection do Postman foi executada com sucesso e a validação visual do Figma foi concluída. Consulte `docs/VALIDATION_STATUS.md`, `docs/API_TESTS.md` e `docs/FIGMA.md`.
+- Validação manual no navegador aprovada em 03/11/2026: conversão, alteração/inversão do par, oito períodos, filtros individuais/combinados, ordenação, CSV e responsividade desktop/mobile. Não há capturas de evidência salvas no repositório. O cenário adicional da API para período sem observações segue pendente. Consulte `docs/VALIDATION_STATUS.md`, `docs/API_TESTS.md` e `docs/FIGMA.md`.
 
 ## Funcionalidades
 
