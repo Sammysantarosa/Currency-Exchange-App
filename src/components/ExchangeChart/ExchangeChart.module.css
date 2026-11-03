@@ -1,0 +1,2 @@
+.chartWrap{height:260px;width:100%;padding-top:10px}.legend{display:flex;align-items:center;gap:7px;font-size:10px;color:var(--muted);padding:0 0 6px 5px}.legend span{height:7px;width:7px;border-radius:50%;background:#216b88}.tooltip{display:flex;flex-direction:column;gap:5px;padding:9px 11px;background:#fff;border:1px solid var(--line);border-radius:8px;box-shadow:0 5px 18px #172b3818;font-size:11px;color:var(--muted)}.tooltip strong{color:var(--ink)}.tooltip span{font-weight:700;color:var(--brand)}
+@media(max-width:600px){.chartWrap{height:230px}}

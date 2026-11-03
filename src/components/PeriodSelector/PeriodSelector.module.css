@@ -1,0 +1,2 @@
+.selector{display:flex;flex-wrap:wrap;gap:6px}.selector button{padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--muted);font:inherit;font-size:10px;font-weight:650;cursor:pointer;white-space:nowrap}.selector button:hover{border-color:#b6cbd3;color:var(--brand)}.selector button.active{background:var(--brand);border-color:var(--brand);color:#fff}
+@media(max-width:620px){.selector{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px;scrollbar-width:thin}.selector button{flex:0 0 auto}}
