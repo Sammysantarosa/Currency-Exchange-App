@@ -10,15 +10,15 @@ Registrar de forma transparente como ferramentas de IA apoiaram o planejamento, 
 |---|---|---|
 | ChatGPT | Análise dos requisitos, planejamento, apoio técnico, revisão e documentação. | Validar decisões, revisar o conteúdo, executar testes e compreender a implementação. |
 | OpenAI Codex | Apoiar criação/refatoração de arquivos e implementação de funcionalidades no projeto local. | Revisar alterações, executar comandos, validar funcionamento e aceitar/rejeitar mudanças. |
-| Figma | Apoiar criação, revisão e implementação do protótipo visual. | Revisar layout, ajustar componentes e garantir correspondência com os requisitos; link do arquivo ainda pendente. |
+| Figma Agent | Criacao e refinamento dos wireframes e do prototipo nas paginas Wireframes, Protótipo, Estados e Design Guide. | A validacao visual foi realizada manualmente pelo desenvolvedor; o uso da ferramenta nao substitui essa validacao. |
 
 ## Registro de atividades
 
 | Data | Ferramenta | Atividade | Alterações aproveitadas | Validação realizada |
 |---|---|---|---|---|
 | 03/11/2026 | ChatGPT | Análise do briefing, criação da documentação-base, estrutura e implementação inicial React/Vite. | Código e documentação preparados como ponto de partida. | Testes automatizados iniciais preparados; build e execução manual pendentes. |
-| 03/11/2026 | Codex | Auditoria tecnica, atualizacao dos registros de validacao/API/Figma e melhoria acessivel da ordenacao da tabela. | README, `docs/VALIDATION_STATUS.md`, `docs/API_TESTS.md`, `docs/FIGMA.md` e `ExchangeTable.jsx`. | `npm audit`: 0 vulnerabilidades; `npm test`: 7 aprovados; `npm run build`: concluido com Vite 6.4.5 e aviso de bundle acima de 500 kB. Postman e navegador seguem pendentes. |
-| Pendente | Figma/Figma AI | Protótipo. | A preencher após criação. | Pendente. |
+| 03/11/2026 | Figma Agent | Criacao e refinamento dos wireframes e do prototipo do Currency Exchange App. | Frames desktop/mobile, estados da interface e Design Guide. | Validacao visual feita manualmente pelo desenvolvedor; nao foram atribuidos testes de interacao ao agente. |
+| 03/11/2026 | Codex | Atualizacao da documentacao para registrar o Figma concluido e os resultados informados de validacao visual. | `docs/FIGMA.md`, `docs/VALIDATION_STATUS.md`, `README.md` e `docs/AI_USAGE.md`. | Atualizacao documental; testes de interacao da aplicacao continuam pendentes. |
 
 ## Declaração
 

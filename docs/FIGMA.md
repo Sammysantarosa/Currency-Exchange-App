@@ -1,41 +1,31 @@
 ﻿# Currency Exchange App — Figma
 
-## Entregaveis exigidos
+## Arquivo
 
-- [ ] Wireframe de baixa fidelidade.
-- [ ] Prototipo de media fidelidade.
-- [ ] Versao desktop.
-- [ ] Proposta de adaptacao mobile.
-- [ ] Estado de loading.
-- [ ] Estado de erro.
-- [ ] Estado sem dados.
+[Currency Exchange App no Figma](https://www.figma.com/design/Zkcah3938CPoXImftwMC5L)
 
-## Direcao visual proposta
+## Organização do arquivo
 
-Dashboard financeiro claro e objetivo, com hierarquia tipografica forte, fundo neutro, cartoes com bordas discretas, um tom de destaque para acoes e graficos legiveis.
+O arquivo está organizado em três páginas:
 
-## Telas/quadros sugeridos
+- **Wireframes:** frames de baixa fidelidade para desktop e mobile. Os wireframes foram validados em baixa fidelidade pelo desenvolvedor.
+- **Protótipo:** composição visual final da aplicação, com frames desktop e mobile.
+- **Estados e Design Guide:** representações dos estados da interface e guia visual do projeto.
 
-1. **Wireframe desktop:** cabecalho, conversor, resumo da cotacao, seletor de periodo, grafico, tabela, filtros e exportacao.
-2. **Prototipo desktop:** identidade visual, tipografia, cores, icones, estados e microinteracoes.
-3. **Mobile:** coluna unica, controles de periodo adaptados e tabela acessivel por rolagem horizontal ou cartoes.
-4. **Estados:** loading, erro de API, consulta sem resultados e filtros sem correspondencias.
+## Frames desktop e mobile
 
-## Componentes visuais para o Design Guide
+Os frames representam a aplicação de câmbio com cabeçalho, conversor de moedas, resumo da cotação, seleção de período, gráfico histórico, filtros, tabela e ação de exportação. A versão mobile adapta a composição para uma coluna, com controles ajustados à largura reduzida e acesso ao conteúdo da tabela.
 
-- Cores de fundo, superficie, texto, borda, acao, sucesso, aviso e erro.
-- Escala tipografica para titulos, corpo, legendas e valores.
-- Espacamento consistente.
-- Botoes, selects, campos, periodos, cards, tabela, tooltip e mensagens de estado.
+## Estados da interface
 
-## Link do arquivo
+A página **Estados e Design Guide** documenta os estados previstos para a interface: carregamento de cotação/histórico, erro de consulta, histórico sem resultados e filtros sem correspondências.
 
-**Figma:** Pendente — inserir o link quando o arquivo do prototipo for efetivamente criado.
+## Design Guide
 
-## Evidencias
+O Design Guide reúne as orientações visuais do projeto: paleta para fundo, superfícies, textos, bordas, ações e estados; hierarquia tipográfica; escala de espaçamento; e componentes de interface como botões, seletores, campos, períodos, cards, tabela, tooltip e mensagens de estado.
 
-**Pendentes.** Adicionar capturas reais do wireframe, prototipo desktop, adaptacao mobile e estados da interface apos a criacao do prototipo.
+## Validação e evidências
 
-## Estado em 03/11/2026
+Os wireframes foram validados em baixa fidelidade e o Figma foi validado visualmente pelo desenvolvedor. Essa validação visual não representa testes de interação da aplicação implementada.
 
-O prototipo ainda nao foi criado. O link do arquivo e as evidencias visuais permanecem pendentes; nenhum link ou evidencia foi inventado. Use `FIGMA_AI_PROMPT.md` como referencia para criar o wireframe e o prototipo.
+Não foram encontradas capturas ou outros arquivos de evidência exportados no repositório durante esta atualização. O link acima aponta para o arquivo Figma; esta documentação não registra imagens locais inexistentes.
